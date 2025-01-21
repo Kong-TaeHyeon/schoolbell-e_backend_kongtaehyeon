@@ -69,7 +69,7 @@ JOIN (
     WHERE manager_id = ${user_id} AND status = 'ONGOING'
 ) AS S ON S.approval_id = A.id;
 
-
+-- 특정사용자가 처리해야할 문서 (방법2)
 SELECT *
 FROM APPROVAL AS A
 JOIN APPROVAL_STEP AS S ON A.id = S.approval_id
