@@ -96,6 +96,7 @@ private dfs(w: number, h: number) {
 #### 결과
 
 ![문제2번 결과](image-5.png)
+
 따라서 문제의 입력으로 주어진 그림의 **Island 갯수는 3**입니다.
 
 ---
